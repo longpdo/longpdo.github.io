@@ -19,6 +19,6 @@ linkedin_username: long-do-18489916b
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-158757509-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
