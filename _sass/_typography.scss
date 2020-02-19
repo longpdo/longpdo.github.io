@@ -1,0 +1,85 @@
+// Google font import
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+// Typography Variables
+// Font, line-height, and color for body text, headings, and more.
+$font-family-monospace:      'Work Sans', sans-serif;
+
+// Pixel value used to responsively scale all typography. Applied to the `<html>` element.
+$font-size-base:             1rem !default;
+$font-size-h1:               2rem !default;
+$font-size-h2:               1.75rem !default;
+$font-size-h3:               1.5rem !default;
+$font-size-h4:               1.25rem !default;
+$font-weight-strong:         600;
+$base-line-height:           1.5em;
+
+// Colors
+$text-color:       rgba(0, 0, 0, 0.87) !default;
+$background-color: #f5f5f5;
+$white:            #fff;
+$primary:          #42b983;
+
+html, body {
+  width: auto;
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+  line-height: $base-line-height;
+}
+
+html {
+  line-height: $base-line-height;
+  font-family: $font-family-monospace;
+  font-weight: normal;
+  color: $text-color;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: $font-size-base;
+}
+
+a {
+   text-decoration: none;
+   color: $primary;
+   &:hover,
+   &:focus {
+     color: lighten($primary, 14%);
+     text-decoration: none;
+   }
+}
+
+h1, h2, h3, h4 {
+	font-weight: $font-weight-strong;
+  line-height: $base-line-height;
+}
+
+h1 a, h2 a, h3 a, h4 a {
+  font-weight: inherit;
+  color: $text-color;
+  &:hover,
+  &:focus {
+    color: lighten($text-color, 24%);
+  }
+}
+h1 { font-size: $font-size-h1}
+h2 { font-size: $font-size-h2}
+h3 { font-size: $font-size-h3}
+h4 { font-size: $font-size-h4}
+
+strong { font-weight: $font-weight-strong; }
+
+p {
+  word-spacing: 0.05em;
+  line-height: $base-line-height;
+}
+
+.heading {
+  margin-bottom: 0.1em;
+}
+
+.data {
+  margin-top: 0.1em;
+  margin-bottom: 0;
+}

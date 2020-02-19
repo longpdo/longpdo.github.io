@@ -1,0 +1,46 @@
+<!-- <h1 class="heading">Projects</span></h1>
+
+{% for project in site.data.projects %}
+<div class="row">
+    <div class="col">
+        <h3 class="data">{{ project.name }}</h3>
+        <p class="data">{{ project.descr }}</p>
+        {% if project.github %}
+        <a href="{{project.github}}" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        {% endif %}
+    </div>
+</div>
+{% endfor %} -->
+
+<h1 class="heading">Extracurricular Activity</span></h1>
+
+{% for activity in site.data.extracurricular_activities %}
+<div class="row">
+    <div class="col">
+        <a href="{{activity.url}}" target="_blank">
+            <h3 class="data">{{activity.name}}</h3>
+        </a>
+        <p class="data">{{activity.descr}}</p>
+        {% if activity.github %}
+        <a href="{{activity.github}}" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        {% endif %}
+    </div>
+</div>
+{% endfor %}
+
+<h1 class="heading">Publications</span></h1>
+
+{% for publication in site.data.publications %}
+<div class="row">
+    <div class="col">
+        <a href="{{publication.url}}" target="_blank">
+            <h3 class="data">{{publication.title}}</h3>
+        </a>
+        <p class="data">{{publication.author}} ({{ publication.year }}).</p>
+        <p class="data">
+            <em>{{ publication.series}}</em>
+            {{publication.number}} PP. {{publication.pages}}
+        </p>
+    </div>
+</div>
+{% endfor %}

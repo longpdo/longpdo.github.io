@@ -1,0 +1,7 @@
+- name: Digital Tech Summit Hackathon 2019
+  url: https://www.gotechsummit.com/
+  descr: "
+    • Participated for the Novartis & Müller Medien Health Challenge (2nd place) <br />
+    • Added audio and haptic feedback to existing face emotiond etection keras model <br />
+    • Built prototype with RaspberryPi, IC board and motors"
+  github: https://github.com/team-ver/face_classification

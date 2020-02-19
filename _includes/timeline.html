@@ -1,0 +1,38 @@
+<div class="row">
+  <h1 class="heading">Experiences</h1>
+  <div class="line">
+    {% for career in site.data.careers %}
+    <div class="timeline">
+      <div class="entry">
+        <strong>{{career.date}}</strong> {{career.job}}
+        @ <a href="{{career.url}}" target="_blank">{{career.name}}</a></div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="row">
+  <h1 class="heading">Education</h1>
+  <div class="line">
+    {% for education in site.data.education %}
+    <div class="timeline">
+      <div class="entry"><strong>{{education.date}}</strong>
+        {{education.degree}} <br>
+        <a href="{{education.url}}" target="_blank">{{education.name}}</a>
+        {{education.description}}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<div class="row">
+  <h1 class="heading">Languages</h1>
+  <div class="line">
+    {% for language in site.data.languages %}
+    <div class="list">
+      <div class="entry"><strong>{{language.name}}</strong>
+        {{language.level}}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

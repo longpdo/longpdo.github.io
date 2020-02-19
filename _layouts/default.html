@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+</head>
+
+<body>
+  {% include particle-orb.html %}
+  {% include landing-page.html %}
+  <section id="about" class="cv">
+    {% include about.html %}
+    <div class="row">
+      <div class="col l7">
+        <div class="row">
+          <div class="col">
+            {% include projects.html %}
+          </div>
+        </div>
+      </div>
+
+      <div class="col l4 offset-l1">
+        {% include timeline.html %}
+        <!-- {% include skills.html %} -->
+      </div>
+    </div>
+  </section>
+  {% include footer.html %}
+</body>
+
+</html>

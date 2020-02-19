@@ -1,0 +1,45 @@
+.line {
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -2px;
+    height: 100%;
+    width: 4px;
+    background: $background-color;
+  }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+.timeline {
+  position: relative;
+  margin: 0.5em auto 1em;
+}
+
+.list {
+  position: relative;
+  margin: 0.5em auto 1em;
+}
+
+.entry {
+  margin-left: 1em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  &:before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-left: -4px;
+    margin-top: -4px;
+    width: 8px;
+    height: 8px;
+    background: #bbb;
+    border-radius: 50%;
+  }
+}

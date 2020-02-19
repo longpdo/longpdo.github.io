@@ -1,0 +1,24 @@
+# Site settings
+title: Long Do | CV
+description: Landing page and resume powered by Jekyll
+baseurl: "/cv" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+updated: 2020
+
+# User settings
+username: Long Do
+user_description: I'm a software developer primarly focusing on front-end development.
+    I have experience working in agile environments and am a convinced advocate of clean code.
+    My technical interests cover the integration of internet of things into everyday life,
+    checking out open source projects and to automate repetitive processes via bash or python scripting.
+user_title: Software Developer
+email: long.p.do@fau.de
+github_username:  longpdo
+linkedin_username: long-do-18489916b
+# blog_adress:
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']

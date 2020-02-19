@@ -1,0 +1,106 @@
+// Layout Variables
+$num-cols: 12 !default;
+
+// Media Query Ranges
+$small-screen: 0px !default;
+$large-screen: 1024px !default;
+$larger-screen: 2000px !default;
+
+/**
+ * Media query
+ */
+@mixin media-query($device) {
+    @media only screen and (min-width: $device) {
+        @content;
+    }
+}
+
+// Row and colum
+.row {
+  margin-left: auto;
+  margin-right: auto;
+
+  // Clear floating children
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .col {
+    float: left;
+    display: block;
+  	width: 100%;
+
+    $i: 1;
+    @while $i <= $num-cols {
+      $perc: unquote((100 / ($num-cols / $i)) + "%");
+      &.s#{$i} {
+        width: $perc;
+        margin-left: 0;
+      }
+      $i: $i + 1;
+    }
+    $i: 1;
+    @while $i <= $num-cols {
+      $perc: unquote((100 / ($num-cols / $i)) + "%");
+      &.offset-s#{$i} {
+        margin-left: $perc;
+      }
+      $i: $i + 1;
+    }
+
+
+    @include media-query($small-screen) {
+      $i: 1;
+      @while $i <= $num-cols {
+        $perc: unquote((100 / ($num-cols / $i)) + "%");
+        &.m#{$i} {
+          width: $perc;
+          margin-left: 0;
+        }
+        $i: $i + 1;
+      }
+      $i: 1;
+      @while $i <= $num-cols {
+        $perc: unquote((100 / ($num-cols / $i)) + "%");
+        &.offset-m#{$i} {
+          margin-left: $perc;
+        }
+        $i: $i + 1;
+      }
+    }
+
+    @include media-query($large-screen) {
+      $i: 1;
+      @while $i <= $num-cols {
+        $perc: unquote((100 / ($num-cols / $i)) + "%");
+        &.l#{$i} {
+          width: $perc;
+          margin-left: 0;
+        }
+        $i: $i + 1;
+      }
+      $i: 1;
+      @while $i <= $num-cols {
+        $perc: unquote((100 / ($num-cols / $i)) + "%");
+        &.offset-l#{$i} {
+          margin-left: $perc;
+        }
+        $i: $i + 1;
+      }
+    }
+  }
+}
+
+.cv {
+  width: 85%;
+  margin: 0 auto 0;
+}
+
+@include media-query($larger-screen) {
+  .cv {
+    width: 70%;
+    margin: 0 auto 0;
+  }
+}
