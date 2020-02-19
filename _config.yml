@@ -1,7 +1,7 @@
 # Site settings
 title: Long Do | CV
 description: Landing page and resume powered by Jekyll
-baseurl: "/cv" # the subpath of your site, e.g. /blog
+baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 updated: 2020
 
