@@ -5,7 +5,7 @@
     <div class="timeline">
       <div class="entry">
         <strong>{{career.date}}</strong> {{career.job}}
-        @ <a href="{{career.url}}" target="_blank">{{career.name}}</a></div>
+        @ <a rel="noreferrer" href="{{career.url}}" target="_blank">{{career.name}}</a></div>
     </div>
     {% endfor %}
   </div>
@@ -17,7 +17,7 @@
     <div class="timeline">
       <div class="entry"><strong>{{education.date}}</strong>
         {{education.degree}} <br>
-        <a href="{{education.url}}" target="_blank">{{education.name}}</a>
+        <a rel="noreferrer" href="{{education.url}}" target="_blank">{{education.name}}</a>
         {{education.description}}
       </div>
     </div>

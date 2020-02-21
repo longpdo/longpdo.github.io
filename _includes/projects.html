@@ -17,12 +17,14 @@
 {% for activity in site.data.extracurricular_activities %}
 <div class="row">
     <div class="col">
-        <a href="{{activity.url}}" target="_blank">
+        <a rel="noreferrer" href="{{activity.url}}" target="_blank">
             <h3 class="data">{{activity.name}}</h3>
         </a>
         <p class="data">{{activity.descr}}</p>
         {% if activity.github %}
-        <a href="{{activity.github}}" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        <a rel="noreferrer" href="{{activity.github}}" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+        </a>
         {% endif %}
     </div>
 </div>
@@ -33,7 +35,7 @@
 {% for publication in site.data.publications %}
 <div class="row">
     <div class="col">
-        <a href="{{publication.url}}" target="_blank">
+        <a rel="noreferrer" href="{{publication.url}}" target="_blank">
             <h3 class="data">{{publication.title}}</h3>
         </a>
         <p class="data">{{publication.author}} ({{ publication.year }}).</p>
