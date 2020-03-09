@@ -1,26 +1,129 @@
-# Static Resume | CV Website built with Jekyll
-This is currently used for my personal cv landing page [(Demo)](https://longpdo.github.io/cv/).
+[![Issues][issues-shield]][issues-url]
+[![Contributors][contributors-shield]][contributors-url]
+[![MIT License][license-shield]][license-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Forks][forks-shield]][forks-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-This Theme features:
-- Sweet Scroll
-- Normalize
-- BrowserSync
-- Font Awesome and Devicon icons
-- Google Analytics
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <!-- <a href="https://github.com/longpdo/cv">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a> -->
 
-## Setup
-1. Install [Jekyll](https://jekyllrb.com): `sudo gem install bundler jekyll`
-2. Clone the particle theme: `git clone https://github.com/longpdo/jekyll-theme-particle-orb.git`
-3. Install dependencies: `yarn`
-4. Run: `jekyll serve`
+  <h3 align="center">Static Resume | CV Website built with Jekyll</h3>
 
-## Personalize and customize
+  <p align="center">
+    This theme is currently used for my personal cv landing page
+    <br />
+    <a href="https://longpdo.github.io/cv/">View Demo</a>
+    ·
+    <a href="https://github.com/longpdo/cv/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/longpdo/cv/issues">Request Feature</a>
+  </p>
+</p>
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+  * [Features](#features)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+  * [Personalize and customize](#personalize-and-customize)
+* [Contributing](#contributing)
+* [License](#license)
+* [Acknowledgements](#acknowledgements)
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+[![Project Screenshot][product-screenshot]](https://longpdo.github.io/cv/)
+
+This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio. If you want to use this for your own portfolio, fork this repository and refer to [personalize and customize](#personalize-and-customize).
+
+### Built With
+* [Jekyll](https://jekyllrb.com/)
+
+### Features
+* [Sweet Scroll](https://wadackel.github.io/sweet-scroll/)
+* [Normalize.css](https://necolas.github.io/normalize.css/)
+* [BrowserSync](https://browsersync.io/)
+* [Font Awesome](https://fontawesome.com/) and [Devicon](https://konpa.github.io/devicon/)
+* [Google Analytics](https://analytics.google.com/)
+
+<!-- GETTING STARTED -->
+## Getting Started
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+* Jekyll
+```sh
+gem install bundler jekyll
+```
+
+For more information, refer to [this](https://jekyllrb.com/docs/installation/).
+
+### Installation
+1. Clone the cv
+```sh
+git clone https://github.com/longpdo/cv.git
+```
+2. Change directory into cv
+```sh
+cd cv
+```
+3. Install dependencies
+```sh
+yarn
+```
+
+<!-- USAGE EXAMPLES -->
+## Usage
+* Run locally
+```sh
+jekyll serve
+```
+
+### Personalize and customize
 1. Edit `_config.yml` to personalize your site.
 2. Edit files inside `_data` to add information to the portfolio.
 3. Edit `_sass/_particle-orb.scss` to customize the particle orb animation.
 
-## Credits
-Inspirated by following people:
-- Based this theme on [Nathan Randecker's](https://github.com/nrandecker/particle) particle theme
-- Timeline Design by [Renyuan Zou](https://github.com/renyuanz/leonids)
-- Particle Orb CSS by [Nate Wiley](https://codepen.io/natewiley/pen/GgONKy)
+<!-- CONTRIBUTING -->
+## Contributing
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- LICENSE -->
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* Based this theme on [Nathan Randecker's](https://github.com/nrandecker/particle) particle theme
+* Timeline Design by [Renyuan Zou](https://github.com/renyuanz/leonids)
+* Particle Orb CSS by [Nate Wiley](https://codepen.io/natewiley/pen/GgONKy)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/longpdo/cv.svg?style=flat-square
+[contributors-url]: https://github.com/longpdo/cv/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/longpdo/cv.svg?style=flat-square
+[forks-url]: https://github.com/longpdo/cv/network/members
+[stars-shield]: https://img.shields.io/github/stars/longpdo/cv.svg?style=flat-square
+[stars-url]: https://github.com/longpdo/cv/stargazers
+[issues-shield]: https://img.shields.io/github/issues/longpdo/cv.svg?style=flat-square
+[issues-url]: https://github.com/longpdo/cv/issues
+[license-shield]: https://img.shields.io/github/license/longpdo/cv.svg?style=flat-square
+[license-url]: https://github.com/longpdo/cv/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/longpdo
+[product-screenshot]: assets/screenshot.gif
