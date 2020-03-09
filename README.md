@@ -1,9 +1,5 @@
-[![Issues][issues-shield]][issues-url]
-[![Contributors][contributors-shield]][contributors-url]
-[![MIT License][license-shield]][license-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Forks][forks-shield]][forks-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: assets/screenshot.gif
 
 <!-- PROJECT LOGO -->
 <br />
@@ -22,6 +18,14 @@
     <a href="https://github.com/longpdo/cv/issues">Report Bug</a>
     ·
     <a href="https://github.com/longpdo/cv/issues">Request Feature</a>
+    <br />
+    <br />
+    <a href="https://github.com/longpdo/cv/issues">
+      <img src="https://badgen.net/github/open-issues/longpdo/cv" />
+    </a>
+    <a href="LICENSE">
+      <img src="https://badgen.net/github/license/longpdo/cv" />
+    </a>
   </p>
 </p>
 
@@ -112,18 +116,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 * Based this theme on [Nathan Randecker's](https://github.com/nrandecker/particle) particle theme
 * Timeline Design by [Renyuan Zou](https://github.com/renyuanz/leonids)
 * Particle Orb CSS by [Nate Wiley](https://codepen.io/natewiley/pen/GgONKy)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/longpdo/cv.svg?style=flat-square
-[contributors-url]: https://github.com/longpdo/cv/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/longpdo/cv.svg?style=flat-square
-[forks-url]: https://github.com/longpdo/cv/network/members
-[stars-shield]: https://img.shields.io/github/stars/longpdo/cv.svg?style=flat-square
-[stars-url]: https://github.com/longpdo/cv/stargazers
-[issues-shield]: https://img.shields.io/github/issues/longpdo/cv.svg?style=flat-square
-[issues-url]: https://github.com/longpdo/cv/issues
-[license-shield]: https://img.shields.io/github/license/longpdo/cv.svg?style=flat-square
-[license-url]: https://github.com/longpdo/cv/blob/master/LICENSE
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/longpdo
-[product-screenshot]: assets/screenshot.gif
