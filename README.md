@@ -72,7 +72,7 @@ gem install bundler jekyll
 For more information, refer to [this](https://jekyllrb.com/docs/installation/).
 
 ### Installation
-1. Clone the cv
+1. Clone the repository
 ```sh
 git clone https://github.com/longpdo/cv.git
 ```
