@@ -1,0 +1,35 @@
+- title: Digital Tech Summit Hackathon
+  title-url: https://www.gotechsummit.com/
+  date: 2019
+  subtitle: "2nd place - Novartis & Müller Medien Health Challenge."
+  github: https://github.com/team-ver/face_classification
+  tags:
+    - tag: Python
+    - tag: Keras CNN model
+    - tag: openCV
+    - tag: Raspberry Pi
+  timeline-side: left
+
+- title: adorsys
+  title-url: https://adorsys.de/
+  date: Mar 2019 - Present
+  subtitle: Software Developer as Working Student
+  tags:
+    - tag: Angular
+    - tag: AngularJS
+    - tag: Jasmine
+    - tag: JBoss
+    - tag: Keycloak
+  timeline-side: right
+
+- title: Friedrich-Alexander University
+  title-url: https://www.fau.de/
+  date: 2018 - Present
+  subtitle: M.Sc. Computer Science
+  timeline-side: left
+
+- title: Friedrich-Alexander University
+  title-url: https://www.fau.de/
+  date: 2015 - 2018
+  subtitle: B.A. Computer Science & Sociology
+  timeline-side: left

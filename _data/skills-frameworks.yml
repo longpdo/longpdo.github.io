@@ -1,0 +1,32 @@
+- name: Angular
+  weight: 4
+
+- name: AngularJS
+  weight: 2
+
+- name: React
+  weight: 2
+
+- name: React Native
+  weight: 2
+
+- name: Node.js
+  weight: 1
+
+- name: Flutter
+  weight: 2
+
+- name: Selenium
+  weight: 3
+
+- name: Jasmine
+  weight: 3
+
+- name: Protractor
+  weight: 2
+
+- name: Jekyll
+  weight: 4
+
+- name: Bootstrap
+  weight: 2

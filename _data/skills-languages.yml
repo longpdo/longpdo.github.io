@@ -1,0 +1,26 @@
+- name: TypeScript
+  weight: 4
+
+- name: JavaScript
+  weight: 3
+
+- name: Python
+  weight: 3
+
+- name: HTML5
+  weight: 3
+
+- name: CSS3
+  weight: 3
+
+- name: SASS
+  weight: 3
+
+- name: Dart
+  weight: 2
+
+- name: Java
+  weight: 1
+
+- name: SQL
+  weight: 1
