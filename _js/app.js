@@ -22,10 +22,12 @@ document.addEventListener(
 
     // Initialize AOS
     AOS.init({
+      disable: "mobile",
       offset: 200,
       duration: 600,
       easing: "ease-in-sine",
       delay: 100,
+      once: true,
     });
 
     initWordCloud();
@@ -45,6 +47,7 @@ function fadeOutPreloader(element, duration) {
       element.style.filter = "alpha(opacity = 0)";
 
       document.documentElement.style.overflowY = "auto";
+      document.getElementById("preloader").remove();
 
       clearInterval(interval);
     } else {
