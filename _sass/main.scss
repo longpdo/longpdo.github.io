@@ -230,9 +230,9 @@ a {
 
   h1 {
     display: flex;
-    height: 15rem;
     justify-content: center;
     position: relative;
+    top: -6rem;
     width: 15rem;
   }
 
@@ -549,6 +549,11 @@ a {
   .hexagon:after {
     border-top: 0.25rem solid $primary-color;
     bottom: -0.25rem;
+  }
+
+  .direction-l,
+  .direction-r {
+    overflow-x: hidden;
   }
 
   .flag-wrapper {
