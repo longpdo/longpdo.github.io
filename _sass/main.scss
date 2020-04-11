@@ -628,13 +628,14 @@ a {
   padding: 0.5rem 1rem;
 }
 
-.project .links {
+.project .name-link-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project .name-link-wrapper .links {
   font-size: 1.5rem;
   margin: 1rem 0.5rem;
-  padding: 0.5rem;
-  position: absolute;
-  right: 0;
-  top: 0;
 
   a:hover {
     animation: jump 1s infinite alternate;
