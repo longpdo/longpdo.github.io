@@ -22,7 +22,7 @@
 
 [![Project Screenshot][product-screenshot]](https://longpdo.github.io)
 
-This is my personal website built with Jekyll, which is based on the new Neumorphism design trend. This can be used by developers, who want to showcase their resume and portfolio. If you want to use this for your own portfolio, I have created a boilerplate version of this without my branding, another preloader and [particles.js](https://vincentgarreau.com/particles.js/) integrated into the landing page. Fork the repository [Neumorphism](https://github.com/longpdo/neumorphism) and refer to the [README](https://github.com/longpdo/neumorphism/blob/master/README.md) for more.
+This is my personal website built with Jekyll, which is based on the new Neumorphism design trend. This can be used by developers, who want to showcase their resume and portfolio. If you want to use this for your own portfolio, I have created a boilerplate version of this without my branding, another preloader and [particles.js](https://vincentgarreau.com/particles.js/) integrated into the landing page. Fork the repository [Neumorphism](https://github.com/longpdo/neumorphism) and then refer to the [README](https://github.com/longpdo/neumorphism/blob/master/README.md) for more.
 
 ### Built With
 
@@ -31,9 +31,11 @@ This is my personal website built with Jekyll, which is based on the new Neumorp
 ### Features
 
 * Gulp dev workflow with [BrowserSync](https://browsersync.io/), [Autoprefixer](https://autoprefixer.github.io/) and SASS & JS minifying.
+* Animated preloader animation
 * Typing Carousel on the landing page
 * [Animations On Scroll](https://michalsnik.github.io/aos/)
 * Filterable skills word cloud
+* [Github's API](https://developer.github.com/v3/) automatically populating the Open Source Projects section
 * [Font Awesome](https://fontawesome.com/)
 * [Normalize.css](https://necolas.github.io/normalize.css/)
 * [Google Analytics](https://analytics.google.com/)
@@ -41,7 +43,7 @@ This is my personal website built with Jekyll, which is based on the new Neumorp
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Fork the repository [Neumorphism](https://github.com/longpdo/neumorphism) and refer to the [README](https://github.com/longpdo/neumorphism/blob/master/README.md) for more.
+Fork the repository [Neumorphism](https://github.com/longpdo/neumorphism) and then refer to the [README](https://github.com/longpdo/neumorphism/blob/master/README.md) for more.
 
 <!-- LICENSE -->
 ## License
