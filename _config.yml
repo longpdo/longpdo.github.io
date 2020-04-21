@@ -18,11 +18,6 @@ twitter_username:
 # About Me Section
 show_aboutme_card: true
 about_me_title: Who Am I
-about_me_description:
-  I'm a software developer primarly focusing on front-end development.
-  I have experience working in agile environments and am a convinced advocate of clean code.
-  My technical interests cover the integration of internet of things into everyday life,
-  checking out open source projects and to automate repetitive processes via bash or python scripting.
 
 # Skills Section
 show_skills_card: true
@@ -39,6 +34,10 @@ show_projects: false
 projects_title: Things I Have Built
 show_os_projects: true
 os_projects_title: Things I Contributed To Open Source
+
+# CONTACT SECTION
+show_contact_card: true
+contact_title: Get In Touch
 
 # Github-Metadata
 repository: longpdo/personal-website
