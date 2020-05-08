@@ -1,7 +1,7 @@
 - name: Git
   weight: 4
 
-- name: Bash
+- name: Zsh
   weight: 3
 
 - name: MongoDB

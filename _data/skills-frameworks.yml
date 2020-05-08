@@ -27,6 +27,3 @@
 
 - name: Jekyll
   weight: 4
-
-- name: Bootstrap
-  weight: 2
