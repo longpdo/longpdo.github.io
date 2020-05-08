@@ -1,11 +1,11 @@
-// Fade out preloader
-setTimeout(function() {
-  fadeOutPreloader(document.getElementById('preloader'), 69);
-}, 1500);
-
 document.addEventListener(
   'DOMContentLoaded',
   function() {
+    // Fade out preloader
+    setTimeout(function() {
+      fadeOutPreloader(document.getElementById('preloader'), 69);
+    }, 1500);
+
     // Typing Text
     var element = document.getElementById('txt-rotate');
     var toRotate = element.getAttribute('data-rotate');
