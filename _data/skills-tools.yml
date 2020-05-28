@@ -20,15 +20,12 @@
   weight: 2
 
 - name: npm
-  weight: 2
+  weight: 3
 
 - name: gulp
   weight: 3
 
 - name: Maven
-  weight: 2
-
-- name: Postman
   weight: 2
 
 - name: Keycloak

@@ -4,7 +4,7 @@
 - name: AngularJS
   weight: 2
 
-- name: React
+- name: React.js
   weight: 2
 
 - name: React Native

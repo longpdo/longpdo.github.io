@@ -24,6 +24,3 @@
 
 - name: Java
   weight: 1
-
-- name: SQL
-  weight: 1
