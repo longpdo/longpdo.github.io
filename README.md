@@ -43,6 +43,8 @@ This is my personal website built with `Jekyll` and hosted on `Github Pages`, wh
 <!-- GETTING STARTED -->
 ## Getting Started
 
+> I value keeping my site open source, but as you all know, *plagiarism is bad*. I would appreciate it, if you would give me credit by attribution, similar to how I give credits to other developers at [Acknowledgements](#acknowledgements).
+
 Fork the repository [Neumorphism](https://github.com/longpdo/neumorphism) and then refer to the [README](https://github.com/longpdo/neumorphism/blob/master/README.md) for more.
 
 <!-- LICENSE -->
