@@ -1,3 +1,13 @@
+- title: adorsys
+  title-url: https://adorsys.de/
+  date: Sep 2020 - Present
+  subtitle: Software Developer
+  tags:
+    - tag: AngularJS
+    - tag: JBoss
+    - tag: gulp
+  timeline-side: right
+
 - title: Digital Tech Summit Hackathon
   title-url: https://www.gotechsummit.com/
   date: 2019
@@ -32,4 +42,10 @@
   title-url: https://www.fau.de/
   date: 2015 - 2018
   subtitle: B.A. Computer Science & Sociology
+  timeline-side: left
+
+- title: Friedrich-Alexander University
+  title-url: https://www.fau.de/
+  date: 2011 - 2015
+  subtitle: B.Sc. Computer Science
   timeline-side: left
