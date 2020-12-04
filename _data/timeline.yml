@@ -3,9 +3,8 @@
   date: Sep 2020 - Present
   subtitle: Software Developer
   tags:
-    - tag: AngularJS
-    - tag: JBoss
-    - tag: gulp
+    - tag: Angular
+    - tag: SpringBoot
   timeline-side: right
 
 - title: Digital Tech Summit Hackathon
@@ -34,7 +33,7 @@
 
 - title: Friedrich-Alexander University
   title-url: https://www.fau.de/
-  date: 2018 - Present
+  date: 2018 - 2020
   subtitle: M.Sc. Computer Science
   timeline-side: left
 
